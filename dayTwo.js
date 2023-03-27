@@ -30,6 +30,3 @@ function compareTriplets(a,b){
     return result;
 
 }
-compareTriplets([1,2,3],[3,2,1])
-compareTriplets([5,6,7],[3,6,10])
-compareTriplets([17,28,30],[99,16,8])
