@@ -1,11 +1,16 @@
+/*
+Link to full question
+https://www.hackerrank.com/challenges/day-of-the-programmer/problem
+*/
+
 function dayOfProgrammer(year){
     if(year>=1919 && year<=2700){
-        if(year%4==0 || year%400 ==0){
+        if(year%4==0 && year%100 !=0){
             return `12.09.${year}`
         }
-        /*else if(year%400==0){
+        else if(year%400==0){
             return `12.09.${year}`
-        }*/
+        }
         else{
             return `13.09.${year}`
         }
