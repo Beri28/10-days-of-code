@@ -1,3 +1,7 @@
+/*
+Link to question
+https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=false
+*/
 const valleys=(steps,path)=>{
 	path=path.toUpperCase()
  	let height=0;
