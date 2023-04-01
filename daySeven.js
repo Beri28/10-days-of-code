@@ -1,3 +1,6 @@
+/*
+Birthday Cake Candles
+*/
 function birthCakeCandles(Candles){
     let counter=0;
     let biggest=Candles[0];
