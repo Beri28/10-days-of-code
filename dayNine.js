@@ -10,7 +10,7 @@ function catAndMouse(x,y,z){
         return 'Cat A'
     }
     else{
-        return 'MOuse C'
+        return 'Mouse C'
     }
 }
 console.log(catAndMouse(1,2,3))
