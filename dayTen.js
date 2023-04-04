@@ -1,3 +1,4 @@
+//Problem statement: Number Line jumps
 function kangaroo(x1,v1,x2,v2){
     let kd1=x1;
     let kd2=x2;
